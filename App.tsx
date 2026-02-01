@@ -266,7 +266,7 @@ const App: React.FC = () => {
             </button>
           </div>
 
-          <div className="mt-48 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full max-w-6xl animate-in fade-in zoom-in duration-1000 delay-1000">
+          <div className="mt-48 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full max-w-5xl animate-in fade-in zoom-in duration-1000 delay-1000">
             {[
               { icon: <Wifi />, label: "NET_SYNAPSE", detail: "ISP Core Uplink", action: () => setIsWifiModalOpen(true), color: "text-emerald-500" },
               { icon: <Gamepad2 />, label: "NEO_GAME", detail: "Direct Re-Currency", action: () => setIsGameModalOpen(true), color: "text-purple-500" },
